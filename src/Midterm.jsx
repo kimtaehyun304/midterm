@@ -1,5 +1,6 @@
 import React, {useState} from "react";
 
+//CSS 적용
 const styles = {
     btn: {
         margin: 10
@@ -8,6 +9,8 @@ const styles = {
 
 function Midterm(){
 
+    //State 설정
+    //setName메서드로 name변수를 초기화하거나 할당한다.
     const [name, setName] = useState("");
 
     return(
@@ -19,7 +22,5 @@ function Midterm(){
         </div>
     )
 }
-
-
 
 export default Midterm;
